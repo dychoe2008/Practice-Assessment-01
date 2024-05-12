@@ -20,9 +20,9 @@ def registering():
                                               "Would you like to register"
                                               "a student? (Y or N): " ).title()
     if student_registration_confirmed in NO:
-        #End the program here in the final version
+        print("Thank you for using our services")
     elif student_registration_confirmed in YES:
-        #Ask for age here in the final version
+        print("What is your age")
     else:
         print(f"{invaild}")
         registering()
